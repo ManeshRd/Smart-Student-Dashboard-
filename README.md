@@ -1,4 +1,4 @@
-# AUTOPILOOT / 2048
+# Smart Student Dashboard 2048
 
 Een zelfstandige Future Simulation over onjuist AI-studieadvies, concrete studentenschade en verschillende hersteloplossingen. De game heeft een zelfstandige spelopbouw met de lichtblauwe dashboardstijl van Manesh: campusbanner, witte afgeronde kaarten en blauwe accenten.
 
@@ -55,6 +55,7 @@ AI hielp bij scenario, teksten en implementatie. De morele grens is een ontwerps
 
 - `autopilot.html`, `autopilot.js`, `autopilot.css`: zelfstandige game.
 - `index.html`: dezelfde nieuwe startpagina.
+- `dashboard-theme.css`, `assets/campus.png`: dashboardstijl en campusbanner.
 - `assets/Inter.ttf`, `assets/OFL-Inter.txt`: lokaal font en licentie.
 - `future-simulation.html`: eerdere dashboardgame; blijft afzonderlijk beschikbaar.
 - `archive-2030.html`: oorspronkelijke Engelstalige simulatie.
