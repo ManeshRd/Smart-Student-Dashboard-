@@ -1,73 +1,35 @@
-# Smart Student Dashboard: When AI Gets It Wrong
+# Smart Student Dashboard / 2048
 
-An interactive future simulation (set in 2030) for **Windesheim UX Research & Innovation — DP6**.
-A fictional student follows inverted AI study advice; you then respond as Windesheim staff, analyse the
-incident (ELSA), set a moral boundary, plan aftercare and choose a redesign.
+Open `index.html` voor de nieuwste versie: de negen nagebouwde Figma-schermen, gevolgd door het spel in 2048 waarin AI de regie overneemt.
 
-> Speculative fiction for education. All people, data, logs and policies are invented.
-> Windesheim has not deployed this system.
+## Starten
 
-## Files
+Geen installatie of build nodig. Open `index.html` lokaal of serveer deze map via een statische webserver. `future-simulation.html` opent dezelfde nieuwste versie. De demo gebruikt geen echte login en verstuurt geen studentgegevens.
 
-| File | Purpose |
-| --- | --- |
-| `index.html` | Semantic page shell: header, chapter stepper, controls, metrics sidebar, crisis-log drawer, footer |
-| `style.css` | Design tokens, components, responsive layout, reduced motion, one-page print report |
-| `script.js` | Data (scenes, decisions, outcomes), centralised state, renderers, events, easter egg |
+## Spelen
 
-No frameworks, build step, backend or external assets.
+1. Doorloop het oorspronkelijke dashboard: inloggen, AI-heads-up, uitleg, feedback, aangepast advies en instellingen.
+2. Kies **Spring naar 2048**.
+3. Verdeel zes fictieve studieblokken tussen AI volgen, zelf oefenen en rust. De keuze heeft directe en latere gevolgen.
+4. Onderzoek de brongegevens, registreer bezwaar en bereik een bevoegde begeleider. Eerder ingrijpen mag ook.
+5. Kies als begeleider hoe je de AI begrenst en herstel organiseert. Vervolgberichten tonen de effecten op student, support en gekoppelde systemen.
+6. Bekijk de persoonlijke eindreflectie met ELSA, morele grens, aftercare en Kill / Keep / Change.
 
-## Run locally (VS Code Live Server)
+Alle gebeurtenissen, druklabels, tijdskosten en uitkomsten zijn geschreven scenario-aannames, geen onderzoeksresultaten of echte schoolbesluiten.
 
-1. Open the folder in VS Code.
-2. Install the **Live Server** extension (Ritwick Dey) if you don't have it.
-3. Right-click `index.html` → **Open with Live Server**. It opens at `http://127.0.0.1:5500/`.
+## Actieve bestanden
 
-Opening `index.html` directly by double-clicking also works.
+- `index.html` / `future-simulation.html`: nieuwste startpagina.
+- `student-dashboard.js`: negen prototypeschermen en de basis van het 2048-spel.
+- `risk-consequences.js`: studieblokken, toetsgevolgen, beleidsafwegingen en vervolgberichten.
+- `student-dashboard.css`: Figma-stijl, responsive layout en printweergave.
+- `assets/`: lokale afbeeldingen, iconen en het Inter-font met licentie.
+- `DP6-verantwoording.md`: presentatieroute, theorie, aannames en bronnen.
 
-## Publish on GitHub Pages
+## Oudere versies
 
-1. Create a new public repository on GitHub, e.g. `smart-student-dashboard-2030`.
-2. Upload `index.html`, `style.css`, `script.js` (and this README) to the repository root
-   (*Add file → Upload files → Commit*), or push with git:
-   ```bash
-   git init
-   git add .
-   git commit -m "DP6 future simulation"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/smart-student-dashboard-2030.git
-   git push -u origin main
-   ```
-3. In the repo go to **Settings → Pages → Build and deployment**: Source *Deploy from a branch*,
-   Branch `main`, folder `/ (root)` → **Save**.
-4. After about a minute the site is live at `https://<your-username>.github.io/smart-student-dashboard-2030/`.
+`archive-2030.html` bewaart de oorspronkelijke Engelstalige simulatie met `script.js` en `style.css`. De overige oudere scenario-scripts worden niet door de nieuwste startpagina geladen.
 
-## Presentation tips
+## GitHub Pages
 
-- **Presenter** (top bar) unlocks every chapter, removes the gates and shows a one-line teaching point per scene,
-  plus a quick-jump menu.
-- **Speed** → *Fast* or *Instant* skips the mock AI loading during a live demo.
-- **Reset** clears progress (stored in `localStorage` in this browser only).
-- **Print / save report** on the final screen prints a one-page ethical summary (choose *Save as PDF*).
-
-## Easter egg (spoiler)
-
-<details>
-<summary>Show</summary>
-
-Click the tiny blue star after the footer motto exactly five times (it also works with Tab + Enter),
-or type `K A I Z E N` on the intro screen. This opens **SYSTEM ARCHIVE // 2048**. Choosing to shut
-down autonomous advice unlocks the secret achievement **Human Override Protocol**, which also appears
-in the final report.
-</details>
-
-## Endings
-
-Deterministic, based on your choices and the final illustrative indicators:
-
-- **Protected Launch** — strong safeguards (human check, held moral boundary, low risk, recovered trust)
-- **Unfinished Balance** — ambiguous middle ground
-- **Fragile Trust** — inadequate safeguards
-
-Indicators (Student Trust, Student Autonomy, Risk, Windesheim Workload) are fictional illustrative
-simulation values, not empirical research.
+Bij hosting vanuit de repository-root opent `index.html` automatisch de nieuwste versie. Deze wijziging wordt op `develop` aangeleverd; wijziging van de Pages-configuratie of samenvoegen met `main` is een aparte stap.
