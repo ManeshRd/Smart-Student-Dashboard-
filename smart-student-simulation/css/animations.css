@@ -1,0 +1,7 @@
+@keyframes enter{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@keyframes connection{0%,100%{opacity:.4}50%{opacity:.9}}
+main>[role=tabpanel],.opening,.page-heading,.dashboard-grid,.final-report{animation:enter .32s ease-out both}
+.orbital-two{animation:connection 7s ease-in-out infinite}
+dialog[open]{animation:enter .2s ease-out}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.reduce-motion *,.reduce-motion *::before,.reduce-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
