@@ -1,49 +1,64 @@
-# Smart Student Dashboard / 2048 — faalscenario en herstelgame
+# AUTOPILOOT / 2048
 
-Open `index.html` of `future-simulation.html`. Geen installatie, backend of echte login nodig. Alle cijfers, gebeurtenissen en beleidsregels zijn fictief.
+Een zelfstandige Future Simulation over onjuist AI-studieadvies, concrete studentenschade en verschillende hersteloplossingen. Deze game gebruikt een eigen vormgeving, los van het Figma-dashboard.
+
+## Openen
+
+Open `index.html` of `autopilot.html`. Geen installatie of internet nodig. Er zijn geen echte accounts, studentgegevens, netwerkverzoeken of schoolbesluiten.
 
 ## Spelverloop
 
-1. **Start als student in je Figma-dashboard.** AI geeft fout advies over Manage & Control en maakt de planning bindend. Probeer extra oefentijd te vragen of de instellingen te wijzigen.
-2. **Ervaar het faalmoment.** De verplichte voorbereiding behandelt het verkeerde onderdeel. Op de fictieve toets krijgt Manesh een **4,2**, met een herkansing en vertraging in de afronding van deze leeruitkomst als gevolg. Een onvoldoende voor één onderdeel betekent niet automatisch zakken voor de hele studie.
-3. **Speel drie oplossingen.** Menselijk herstel; technische reparatie; stoppen met bindende AI. Elke route vraagt concrete handelingen en laat zien wat nog ontbreekt.
-4. **Vergelijk gevolgen.** Zonder ondersteuning blijft de 4,2 staan. Met een begeleid hersteltraject volgt in het verhaal een 6,4. Een patch zonder begrenzing laat beslismacht bestaan. Een stop zonder begeleiding laat de student wachten.
-5. **Sluit af met reflectie.** Gebruiker, systeem, organisatie; ELSA; morele grens vanuit plichtethiek en gevolgenethiek; aftercare; toetsbare aannames en Kill / Keep / Change.
+1. **Advies:** je bent Manesh, tweedejaars student. Kies AI volgen, zelf de bronnen controleren of een mentor vragen.
+2. **Toets:** de tijd springt vooruit. AI volgen of te late begeleiding leidt in deze fictieve casus tot een 4,2, herkansing en vertraging. Zelf oefenen levert een 6,1 op, maar een andere opdracht wordt te laat ingeleverd.
+3. **Bezwaar:** ervaar automatische afwijzing of een onafhankelijke menselijke beoordeling.
+4. **Herstelteam:** expliciete rolwisseling. Test drie oplossingen op hetzelfde incident: AI repareren, de student helpen of bindende AI pauzeren en de dienst herontwerpen.
+5. **Gevolgen:** bekijk directe en uitgestelde impact op student, systeem en organisatie. Extra mentorcapaciteit is een afzonderlijke keuze; zonder capaciteit kan de fallback mislukken.
+6. **Terugblik:** drie perspectieven, ELSA, morele grens vanuit plichtethiek en gevolgenethiek, aftercare en Kill / Keep / Change.
 
-Het eerste hoofdstuk is bewust een vast faalscenario. Het publiek moet eerst ervaren wat er misgaat als AI beslismacht heeft. Het herstelhoofdstuk is vertakt en kan op hetzelfde incident met andere oplossingen worden herspeeld.
+De cijfers, deadlines, aantallen, wachttijden en gevolgen zijn geschreven scenario-uitkomsten. Ze zijn geen voorspelling of berekening van echte studieresultaten. Een onvoldoende voor één onderdeel betekent niet automatisch zakken voor de hele studie. Er is geen verborgen timer en lezen kost geen speeltijd.
 
-De 4,2 en 6,4 zijn geschreven scenario-artefacten, geen berekende of gegarandeerde echte onderwijsuitkomsten. Voorgestelde begeleiding, termijnen en bevoegdheden zijn geen bestaand Windesheim-beleid.
+## Presentatieroute (8–10 minuten)
 
-## Het oorspronkelijke Figma-prototype
+- 1 minuut: schets de toekomstcontext en open het AI-advies.
+- 2 minuten: laat het publiek een studentaanpak kiezen en open de toetsuitslag. Benoem oorzaak, keuze en concreet gevolg.
+- 1 minuut: ervaar bezwaar en de overdracht naar een bevoegde mens.
+- 3 minuten: test minimaal twee hersteloplossingen. Benoem wat iedere oplossing wel en niet herstelt.
+- 2 minuten: eindig met morele grens, aftercare, Kill / Keep / Change en voorwaarden voor gebruik.
 
-Kies **Bekijk eerst mijn Figma-prototype**. Alle negen schermen blijven beschikbaar: login, AI-heads-up, dashboard, uitleg, feedback, bevestiging, aangepast advies, instellingen en dashboard 2.0. Via **Spring naar 2048** start het spel.
+Het reflectiescherm kan alle vijf onderdelen samen printen. De browser-PDF-export is niet apart visueel gecontroleerd.
 
-## Presenteren in circa 8 minuten
+## DP6-dekking
 
-- 1 min: begin als student; toon het verkeerde AI-advies en de geblokkeerde keuze.
-- 1 min: speel de tijdsprong en lees de toetsuitslag en vertraging.
-- 3 min: laat het publiek een oplossing kiezen; speel die en vergelijk met minstens één andere oplossing.
-- 2 min: bespreek wat per gebruiker, systeem en organisatie wordt opgelost of juist blijft bestaan.
-- 1 min: verdedig de morele grens en eindig met behouden, veranderen, stoppen en voorwaarden.
-
-## Actieve bestanden
-
-- `index.html` en `future-simulation.html`: startpagina.
-- `student-dashboard.js`: het nagebouwde Figma-dashboard en de reflectie.
-- `failure-game.js`: faalscenario, drie herstelroutes en concrete gevolgen.
-- `student-dashboard.css`: dashboardstijl, game, responsive layout en printstijl.
-- `assets/`: lokale Figma-assets en Inter-font inclusief OFL-licentie.
-
-Oudere varianten zoals `risk-consequences.js` worden niet door de nieuwste pagina geladen. `archive-2030.html` bewaart de oorspronkelijke Engelstalige simulatie.
+- Toekomstcontext: fictief 2048 met AI-planning voor 24.000 studenten.
+- Risico: fout of oud profiel krijgt beslissende invloed op planning.
+- Gevolg: onvoldoende, herkansing, vertraging, gemiste deadline, afhankelijkheid en gemiste ondersteuning.
+- Drie niveaus: gebruiker, systeem en organisatie, ook tijdens herstel.
+- ELSA: ethisch, juridisch, maatschappelijk en technologisch, met positieve en negatieve impact.
+- Morele grens: AI mag geen studieroute afdwingen, uitsluiten of passende hulp weigeren op basis van een profiel.
+- Onderbouwing: plichtethiek en gevolgenethiek; bijbehorende rechten, menselijke beoordeling en toezicht.
+- Lifecycle: bron → advies → planning → beoordeling → bezwaar → herstel → monitoring → herstart of exit.
+- Gerichte tests: oude of ontbrekende rubricdata injecteren, bezwaren tot herstel volgen, support onder piekbelasting en toegankelijkheid toetsen.
+- Conclusie: geprioriteerd stoppen, behouden, aanpassen en voorwaarden voor verantwoord gebruik.
 
 ## Bronnen en grenzen
 
-Gebaseerd op het aangeleverde Figma-bestand en Les 6, met name lessenoverzicht p. 3, aftercare p. 18, Kill / Keep / Change p. 19–20 en de eindcheck p. 21. De vijf andere lesdocumenten zijn niet aangeleverd. Theorie wordt toegepast op dit scenario; er zijn geen onderzoeksresultaten of interviews verzonnen. Het morele standpunt is een ontwerpvoorstel dat Manesh zelf moet beoordelen en verdedigen.
+Het concept sluit aan op het eigen Smart Student Dashboard. Les 6 is gebruikt: lessenoverzicht p. 3, aftercare p. 18, Kill / Keep / Change p. 19–20 en eindcheck p. 21. De andere vijf lesdocumenten zijn niet aangeleverd; toepassingen daarvan zijn gebaseerd op het overzicht. Er zijn geen echte interviews of pilotresultaten verzonnen.
 
-Figma: https://www.figma.com/design/4XGmYePtcXRxnQHKydjMeC/V1---DP4---Prototype--met-AI-?node-id=0-1
+Verdieping:
+- Voros / Futures Cone: https://foresightinternational.com.au/wp-content/uploads/2020/03/Voros-Primer-on-FS-2001-Final.pdf
+- NIST AI RMF: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+- AVG: https://eur-lex.europa.eu/eli/reg/2016/679/oj — huidig vertrekpunt; voor inzet in 2048 opnieuw juridisch toetsen.
 
-Verdieping: Voros/Futures Cone; NIST AI RMF; AVG als huidig juridisch vertrekpunt. Voor daadwerkelijk gebruik in 2048 moet de dan geldende regelgeving opnieuw worden getoetst.
+AI hielp bij scenario, teksten en implementatie. De morele grens is een ontwerpstandpunt dat Manesh zelf moet beoordelen en verdedigen. Het Inter-font heeft een meegeleverde OFL-licentie.
 
-## Verificatie
+## Bestanden
 
-Getest in de browser: het geweigerde oefenverzoek, tijdsprong naar de 4,2, menselijk herstel met terugkerend systeemrisico, patch zonder studentherstel, stop met begeleiding en doorklik naar reflectie. JavaScript-syntax en browserfouten zijn gecontroleerd. Printstijl is aanwezig; een geëxporteerde PDF is niet apart visueel gecontroleerd.
+- `autopilot.html`, `autopilot.js`, `autopilot.css`: zelfstandige game.
+- `index.html`: dezelfde nieuwe startpagina.
+- `assets/Inter.ttf`, `assets/OFL-Inter.txt`: lokaal font en licentie.
+- `future-simulation.html`: eerdere dashboardgame; blijft afzonderlijk beschikbaar.
+- `archive-2030.html`: oorspronkelijke Engelstalige simulatie.
+
+## Getest
+
+Alle drie studentroutes, beide bezwaarroutes, de drie hersteloplossingen, de capaciteitskeuze en de vijf reflectieonderdelen zijn doorlopen in de browser. JavaScript-syntax en browserfouten zijn gecontroleerd. De game berekent geen echte kans op falen en toont geen score die schade kan wegstrepen.
