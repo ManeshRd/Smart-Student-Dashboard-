@@ -1,6 +1,6 @@
 # AUTOPILOOT / 2048
 
-Een zelfstandige Future Simulation over onjuist AI-studieadvies, concrete studentenschade en verschillende hersteloplossingen. Deze game gebruikt een eigen vormgeving, los van het Figma-dashboard.
+Een zelfstandige Future Simulation over onjuist AI-studieadvies, concrete studentenschade en verschillende hersteloplossingen. De game heeft een zelfstandige spelopbouw met de lichtblauwe dashboardstijl van Manesh: campusbanner, witte afgeronde kaarten en blauwe accenten.
 
 ## Openen
 

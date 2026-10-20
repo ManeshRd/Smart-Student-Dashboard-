@@ -1,0 +1,42 @@
+/* Manesh's dashboard palette, shared by every chapter of the simulation. */
+:root{--bg:#f4faff;--panel:#fff;--border:#dbe5f7;--text:#090e2e;--muted:#47547a;--acid:#0959f2;--violet:#6853ae;--paper:#fff;--ink:#090e2e;--red:#b72e45;color-scheme:light}
+body{background:var(--bg)}
+.game-header{max-width:1300px;margin:24px auto 0;height:156px;padding:28px 38px;border:1px solid var(--border);border-radius:23px;background:linear-gradient(90deg,#f4faffc9,#f4faff18),url('assets/campus.png') center 47%/cover;box-shadow:0 8px 29px #0d1f4714}
+.game-header>a{background:#0959f2;color:white;border:0;box-shadow:0 5px 15px #0959f230;flex-shrink:0}
+.brand-word{background:#ffffffed;padding:17px 21px;border-radius:15px;color:var(--text);box-shadow:0 5px 20px #0d1f4710}
+.brand-word small{color:var(--muted)}
+.header-caption{color:#20355f;background:#fffffff0;padding:11px 14px;border-radius:10px;font-weight:600;letter-spacing:1px}
+.reset-button{color:#0959f2;background:#fff;border-color:#dbe5f7;box-shadow:0 5px 20px #0d1f4710}
+.primary{color:#fff;box-shadow:0 5px 14px #0959f21c}.primary:hover{background:#0648c8}
+.ghost{color:#0959f2;background:#fff;border-color:#cdddf7}.ghost:hover{background:#eaf2ff}
+.intro-layout .lead{color:#26385f}.intro-copy,.duration,.intro-bottom,.art-caption,.scenario-note{color:var(--muted)}
+.intro-layout h1>small{color:#6b7da0}.intro-art{background:radial-gradient(ellipse,#dceaffb3,transparent 70%)}
+.orbit{border-color:#b8cff0}.floating-card{border-radius:19px;box-shadow:0 8px 29px #0d1f4714}
+.signal{background:#fff;border-color:var(--border);color:var(--text)}.signal span{color:#0959f2}.signal-bar{background:#e4edfc}.signal-bar:before{background:#0959f2}
+.result{border:1px solid #f2d6dc;background:#fff}.result span{color:#47547a}
+.chapter-nav{color:#697c9c}.chapter-nav b{border-color:#cbdaf2;background:#fff}.chapter-nav .current b{color:#fff}.chapter-nav .complete{color:#365d9e}
+.ai-message,.stakes,.montage>div,.complaint-paper,.letter,.route-recap,.final-content{border-color:var(--border);border-radius:19px;background:#fff;box-shadow:0 8px 29px #0d1f470d}
+.ai-message{background:linear-gradient(130deg,#fff,#edf4ff)}.author small,.ai-message>p,.ai-message .micro-note{color:#52648a}.ai-symbol{color:#0959f2}.online{color:#26704c;background:#e8faed;border-color:#c4e8ce}
+.ai-message blockquote{color:#14264e}.data-contrast{border-color:#d6e2f6}.data-contrast span,.data-contrast small{color:#52648a}.data-contrast strong{color:#6853ae}
+.stakes{background:#e8faed;border-color:#ccebd4}.stakes h2{color:#153f2a}.stakes ul,.stakes>p{color:#365c46}
+.decision-grid button,.solution-grid button,.two-options button{border-color:var(--border);background:#fff;border-radius:19px;box-shadow:0 8px 29px #0d1f470a}
+.decision-grid button:hover,.solution-grid button:hover,.two-options button:hover{background:#edf4ff;border-color:#8eb5fa}
+.decision-grid button>span,.solution-grid button>span,.two-options button>span{color:#0959f2}
+.decision-grid p,.solution-grid p,.two-options p,.montage p,.letter>p,.effect-timeline p,.route-recap p,.final-content>p,.reflect-grid p,.theory-note p,.source-note p,.priorities{color:var(--muted)}
+.notification{background:#e8faed;border-color:#c4e8ce;border-radius:19px}.notification-icon{color:#26704c}.notification small,.notification p{color:#365c46}
+.grade-paper{box-shadow:0 8px 29px #0d1f4714;border:1px solid var(--border);border-radius:19px}.paper-top{border-color:var(--border);color:#52648a}.grade-number{border-color:#e5d5dc}.teacher-comment>p{color:#47547a}.real-harm{background:#ffebed;border-color:#b72e45;border-radius:0 12px 12px 0}.real-harm p{color:#743342}
+.cause-chain>span{background:#edf4ff;border-color:#d2e1fa;color:#263e6a}.complaint-paper p,.letter blockquote{color:#26385f}
+.letter.rejected{background:#fff7f8}.letter.accepted{background:#f2fbf5}.role-transfer{background:#f0ebff;border-color:#c7b8ec;color:#53447d}
+.solution-grid button>div{border-color:var(--border)}.solution-grid button>div strong{color:#806118}.solution-grid button>div p{color:#52648a}
+.resource-decision{background:#edf4ff;border-color:#cdddf7;border-radius:19px}.resource-decision p,.resource-decision small{color:#47547a}.resource-decision label{background:#fff;border:1px solid var(--border)}
+.effect-number{background:#edf4ff;border-color:#cdddf7}.effect-timeline small{color:#52648a}
+.repair-result{background:#e8faed;border-color:#c4e8ce;color:#225c37!important}.repair-result.negative{background:#ffebed;border-color:#efc8d0;color:#8f3449!important}
+.effect-verdict{background:#fff5d9;border-color:#efdfa9}.effect-verdict>strong{color:#785711}.effect-verdict>p{color:#725e30}
+.final-nav button{background:#fff;border-color:var(--border);color:#47547a}.final-nav .selected{color:#fff;background:#0959f2;border-color:#0959f2}
+.reflect-grid article{background:#f4faff;border-color:var(--border);border-radius:15px}.reflect-grid article>span{color:#0959f2}.theory-note,.source-note{border-color:var(--border)}
+.boundary-statement{background:#f0ebff;color:#493675!important;border-color:#6853ae}
+th,td{border-color:var(--border)}th{background:#edf4ff}td{color:#47547a}td:first-child,.priorities strong{color:#20355f}
+footer{color:#52648a}.skip:focus{color:white}
+@media(max-width:1350px){.game-header{margin:20px 24px 0}}
+@media(max-width:680px){.game-header{height:122px;margin:12px 12px 0;padding:18px 14px;gap:10px;border-radius:19px}.brand-word{padding:14px 10px;font-size:10px;letter-spacing:1px}.brand-word small{font-size:9px}.reset-button{padding:8px;font-size:9px}.intro-layout h1{overflow-wrap:normal}.grade-number{border-color:var(--border)}}
+@media print{.game-header{display:none}.final-content,.reflect-grid article,.route-recap{box-shadow:none}.boundary-statement{background:#f2f2f2;color:#222!important}}
