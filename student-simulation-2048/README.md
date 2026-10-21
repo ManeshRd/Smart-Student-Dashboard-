@@ -48,3 +48,7 @@ Printen gebruikt de browserdialoog. De reflectie en het beslisspoor krijgen een 
 Geen echte AI, accounts, studentgegevens of onderwijsbesluiten. Feedback wordt niet verstuurd of duurzaam opgeslagen; herladen begint opnieuw bij het inlogscherm. Alle gevoelens beschrijven een fictief personage, niet de gebruiker. De beschikbare docent, planning, uitkomsten en toekomstcontext zijn aannames om te testen. Echte inzet vraagt toegankelijke menselijke hulp, monitoring, voldoende capaciteit en een stopprocedure. De simulatie is geen gebruikersonderzoek of juridische beoordeling.
 
 De lokale Inter-font heeft een meegeleverde OFL-licentie. AI hielp bij implementatie en scenariotekst; Manesh beoordeelt en verdedigt het uiteindelijke ontwerp.
+
+## Compacte presentatieweergave
+
+Op desktop past de hoofdroute zonder paginascroll: start, dashboard, uitleg, feedback, aangepast advies, gevolg en terugblik. De indeling is gecontroleerd op 760×884, 1280×720 en 1366×768. Dashboardpanelen en keuzeknoppen blijven binnen de viewport zonder afkappen of pagina-zoom. Extra reflectietekst opent in een apart venster. Op telefoons en zeer lage vensters blijft de leesbare, scrollbare indeling beschikbaar.
