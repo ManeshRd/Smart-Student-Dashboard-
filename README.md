@@ -1,7 +1,9 @@
-# Smart Student Dashboard: The AI Failure Files
+# Smart Student Dashboard 2048
 
-The new complete 2048 Future Simulation lives in **smart-student-simulation/**. The root start page opens it automatically.
+De actieve simulatie staat in **student-simulation-2048/**. De startpagina van de repository opent direct het inlogscherm met uitleg en **Start simulatie**.
 
-See **smart-student-simulation/README.md** for local setup, GitHub Pages instructions, presentation route, state and outcome logic, accessibility, sources and verification.
+Het scenario gaat over verkeerd AI-advies en het verschil tussen voortgang en beheersing. Je ziet wat de student denkt en voelt, maakt keuzes, ervaart het gevolg en kunt uitleg of herstel regelen. De vormgeving volgt de negen Figma-schermen van Manesh.
 
-The earlier prototypes are preserved: `autopilot.html`, `future-simulation.html` and `archive-2030.html`. Their former README is retained as `previous-autopilot-readme.md`.
+Zie **student-simulation-2048/README.md** voor speelroutes, designmapping, lokaal starten, tests en grenzen.
+
+Eerdere versies blijven apart bewaard: `smart-student-simulation/` (The AI Failure Files), `autopilot.html`, `future-simulation.html` en `archive-2030.html`.

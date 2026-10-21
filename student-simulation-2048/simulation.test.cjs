@@ -1,0 +1,16 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+function setup(){const events={};const nodes=new Map();function node(q){if(!nodes.has(q))nodes.set(q,{innerHTML:'',textContent:'',classList:{add(){},remove(){}},focus(){},showModal(){},close(){}});return nodes.get(q);}const context={document:{querySelector:node,querySelectorAll:()=>[],body:{classList:{toggle(){}}},addEventListener:(type,fn)=>events[type]=fn},window:{addEventListener(){},scrollTo(){},print(){}},location:{reload(){}},setTimeout:()=>1,clearTimeout(){}};vm.createContext(context);vm.runInContext(fs.readFileSync(__dirname+'/simulation.js','utf8'),context);return {sim:vm.runInContext('sim',context),run:code=>vm.runInContext(code,context),click:action=>events.click({target:{closest:()=>({dataset:{action},disabled:false})}}),nodes,events};}
+// Advice changes confidence, never the underlying preparation.
+let t=setup();assert.equal(t.sim.screen,'login');assert.ok(t.nodes.get('#app').innerHTML.includes('Start simulatie'));
+t.click('start');t.click('choose:done');assert.equal(t.sim.prepared,58);assert.equal(t.sim.claim,88);assert.equal(t.sim.mood,'Gerustgesteld');t.click('assessment');assert.equal(t.sim.harm,true);assert.equal(t.sim.screen,'outcome');assert.ok(t.run('outcome()').includes('nog niet voldoende'));
+// Correcting text cannot silently undo student harm. Each repair has a distinct consequence.
+for(const repair of ['patch','support','pause']){t=setup();t.click('start');t.click('choose:done');t.click('assessment');t.click('review');assert.equal(t.sim.prepared,58);assert.equal(t.sim.claim,58);t.click('repair:'+repair);assert.equal(t.sim.repair,repair);assert.equal(t.sim.harm,true);assert.equal(t.sim.screen,'reflection');assert.ok(t.run('reflection()').includes(repair==='support'?'Een herstelplan':'Een beter advies'));}
+// Checking without practising is not sufficient; practice requires a qualified review.
+t=setup();t.click('practice');assert.equal(t.sim.prepared,58);t.click('start');t.click('choose:check');t.click('review');t.click('assessment');assert.equal(t.sim.harm,true);
+t=setup();t.click('start');t.click('choose:check');t.click('review');t.click('practice');assert.equal(t.sim.prepared,80);const n=t.sim.history.length;t.click('practice');assert.equal(t.sim.history.length,n);t.click('assessment');assert.equal(t.sim.harm,false);assert.ok(t.run('outcome()').includes('Je kunt je keuzes onderbouwen'));
+// Disabling data prevents personal advice, but never removes the dashboard.
+t=setup();t.click('toggle:useResults');assert.equal(t.sim.personal,false);t.click('toggle:personal');assert.equal(t.sim.personal,false);assert.ok(t.run('dashboard()').includes('Weekrooster'));
+// Forms escape feedback; all nine design-based screen components remain renderable.
+t.sim.note='<img src=x onerror=alert(1)>';assert.ok(!t.run('feedback()').includes('<img src=x'));assert.ok(t.run('feedback()').includes('&lt;img'));
+for(const name of ['login','dashboard','explanation','feedback','confirmation','updated','outcome','reflection'])assert.equal(typeof t.run(name+'()'),'string');
+console.log('PASS: login start, misleading advice, failed outcome, three repair paths, review without practice, reviewed practice, repeat-click guard, privacy controls, escaped feedback and screen renders.');
