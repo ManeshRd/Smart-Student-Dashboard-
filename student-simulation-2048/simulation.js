@@ -54,7 +54,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('button[data-acti
  if(kind==='practice'){if(!sim.reviewed||sim.practised)return;sim.practised=true;sim.prepared=80;sim.phase=sim.harm?'herstel':'keuze';sim.history.push('Beheersmaatregelen geoefend met Nick; voorbereiding 58 → 80.');setMood('Meer vertrouwen door oefening','“Ik kan nu uitleggen waarom mijn maatregelen passen.”');render();tell('Je hebt een nieuwe casus geoefend. AI geeft geen garantie op een voldoende.');return;}
  if(kind==='assessment'){assess();return;}
  if(kind==='repair'){close();if(value==='patch')sim.plan=['meaning'];else if(value==='support')sim.plan=['support','reassess','owner'];else if(value==='pause')sim.plan=['pause'];sim.repair=value||null;repair();return;}
- if(kind==='reflection'){sim.phase='terugblik';go('reflection');return;}
+ if(kind==='reflection'){close();sim.phase='terugblik';go('reflection');return;}
  if(kind==='trace'){modal(`<h2>Jouw beslisspoor</h2><ol class="help-list">${sim.history.map(t=>`<li>${esc(t)}</li>`).join('')||'<li>Je hebt nog geen keuze gemaakt.</li>'}</ol><p class="fine">Dit spoor blijft alleen in het geheugen van deze pagina.</p>`,'Jouw beslisspoor');return;}
  if(kind==='settings'){settings();return;}
  if(kind==='toggle'){if(!['personal','useResults','useAttendance','contrast'].includes(value))return;sim[value]=!sim[value];if(value==='useResults'&&!sim.useResults)sim.personal=false;if(value==='personal'&&sim.personal&&!sim.useResults){sim.personal=false;tell('Zet eerst resultaatgegevens aan voor persoonlijk studieadvies.');}render();settings();return;}
