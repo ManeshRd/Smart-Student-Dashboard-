@@ -66,3 +66,7 @@ Na **Voer mijn plan uit** volgt een geschreven vervolgscène tien schooldagen la
 Een samenhangend voorstel kan worden ingevuld en gewijzigd. Het is een ontwerpscenario, geen gecertificeerd veilige inzet. De tests controleren alle 511 niet-lege maatregelcombinaties en alle drie de statussen. De eindstatus en het keuzescherm zijn op 1280×720 gecontroleerd zonder paginascroll.
 
 De hoofdroute toont nu eerst **Impact op drie niveaus** in plaats van het oplossingskeuzescherm. Student: ervaring, winst, verlies en eigen keuzes. Systeem: data, AI-inschatting, automatisering en interpretatie van de interface. Opleiding: beleid, support, toezicht, verantwoordelijkheid en menselijke controle. Oplossingen blijven optioneel via **Bekijk oplossingen** te openen. Het personage spreekt over een nog niet aangetoonde leeruitkomst; de docent heet Nick.
+
+
+## Drie uitgewerkte routes
+AI volgen: planning overnemen → waarschuwing negeren of hulp vragen → twee weken vertraging en botsende deadlines. Zelf controleren: rubric vergelijken → drie uur controlewerk → oefenen of alleen tekst corrigeren. Docent vragen: wachtrij van 47 → spoedhulp of wachten → oefenen of alleen correctie. Iedere scène toont student, systeem en opleiding. Tussentijds ingrijpen verandert de afloop. Alleen corrigeren of een melding indienen verbetert voorbereiding niet. Wachttijden, beleid en indicatoren zijn expliciet fictieve scenariokeuzes, geen uitspraken over Windesheim.
