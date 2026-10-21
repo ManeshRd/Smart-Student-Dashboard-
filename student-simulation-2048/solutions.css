@@ -23,3 +23,5 @@
 @media screen and (min-width:700px) and (max-width:1000px) and (min-height:680px){.journey-levels h2{font-size:15px}.journey-levels .section-head{gap:8px}.journey-levels .section-icon{width:36px;height:36px}.journey-levels>.panel{padding:14px}.journey-decision .btn{font-size:11px}.journey-levels p{font-size:13px}}
 
 @media screen and (min-width:700px) and (min-height:680px){.journey-page{align-content:start;padding-top:20px}.status-story>strong{font-size:11px}.feeling{font-size:9px}.status-metric>span{font-size:9px}.status-metric small{font-size:7px}}
+
+.measure-effect-grid{grid-template-columns:1.4fr 1fr}@media(max-width:699px){.measure-effect-grid{grid-template-columns:1fr}}
