@@ -13,7 +13,7 @@ De statusbalk maakt het verschil zichtbaar tussen de AI-inschatting, de gecontro
 1. **Advies volgen:** kies “ik ben klaar”, ga twee dagen vooruit. Onderbouwing ontbreekt, het datapunt is nog niet aangetoond. De student voelt zich verward en teleurgesteld.
 2. **Uitleg controleren:** vergelijk de voortgang met de daadwerkelijke rubric. Geef feedback en laat Sam het advies controleren. Zonder oefening blijft de voorbereiding gelijk en kan het datapunt nog steeds misgaan.
 3. **Hulp vragen:** een docent controleert de interpretatie. Oefen daarna een nieuwe casus; de geschreven uitkomst laat betere voorbereiding zien.
-4. **Herstel na schade:** vergelijk alleen advies corrigeren, begeleiding plus een herstelmoment, of risicovol advies pauzeren. Een patch maakt een gemist datapunt niet alsnog behaald. Alleen een bevoegde beoordelaar beslist over een nieuwe beoordeling.
+4. **Herstel na schade:** combineer negen maatregelen op student-, systeem- en organisatieniveau. Een patch maakt een gemist datapunt niet alsnog behaald. Alleen een bevoegde beoordelaar beslist over een nieuwe beoordeling.
 
 De afsluiting bevat de impact op student, systeem en opleiding, ELSA, een morele grens vanuit gevolgenethiek en plichtethiek en voorwaarden voor verantwoord gebruik. Extra uitleg staat achter een uitklapbaar onderdeel.
 
@@ -56,3 +56,11 @@ Op desktop past de hoofdroute zonder paginascroll: start, dashboard, uitleg, fee
 ## Drie perspectieven
 
 Student is het fictieve personage. Via **Student · AI · Opleiding**, de gevolgpagina en de perspectieftitels in de terugblik kun je wisselen tussen ervaring en autonomie; data, automatisering en interpretatie; en beleid, support, toezicht, verantwoordelijkheid en menselijke controle. De inhoud volgt je route en herstelkeuze. In de herstelkeuze speel je expliciet de opleiding. De functies staan in `perspectives.js`.
+
+## Oplossingen en eindstatus
+
+`solutions.js` bevat negen combineerbare maatregelen en acht uitgangspunten. De studentmaatregelen zijn gericht oefenen, een herstelkans en samen advies begrijpen. Systeemmaatregelen zijn betekenis en onzekerheid verduidelijken, menselijke controle afdwingen en onveilig advies pauzeren. Organisatiemaatregelen zijn een eigenaar met capaciteit, toezicht met stopbevoegdheid en onafhankelijk bezwaar. Iedere kaart toont afweging en eigenaar.
+
+Na **Voer mijn plan uit** volgt een geschreven vervolgscène tien schooldagen later. Het eindscherm toont **Simulatie opgelost**, **Gedeeltelijk opgelost** of **Nog niet opgelost**. Bij schade vraagt individueel herstel om oefenen, een nieuwe beoordeling en capaciteit. Structurele bescherming vraagt om betere betekenisgeving én menselijke regie. Organisatorische nazorg vraagt om eigenaar, monitoring en onafhankelijk bezwaar. Alleen als alle drie niveaus zijn afgedekt, sluit dit fictieve incident. Historische schade blijft erkend; er is geen automatische cijferwijziging.
+
+Een samenhangend voorstel kan worden ingevuld en gewijzigd. Het is een ontwerpscenario, geen gecertificeerd veilige inzet. De tests controleren alle 511 niet-lege maatregelcombinaties en alle drie de statussen. De eindstatus en het keuzescherm zijn op 1280×720 gecontroleerd zonder paginascroll.
