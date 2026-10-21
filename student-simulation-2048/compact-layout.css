@@ -25,3 +25,16 @@
 @media screen and (min-width:700px) and (min-height:680px) and (max-height:800px){
  .reflection-page{grid-template-columns:1fr auto;gap:8px;padding-top:10px;padding-bottom:10px}.reflection-hero,.impact-grid,.moral-card,.final-choices{grid-column:1/-1}.reflection-hero{padding:12px 18px}.route-details{grid-column:1}.reflection-page>.button-row{grid-column:2;align-self:center}.reflection-hero h2{font-size:23px;margin:6px 0}
 }
+
+/* Login: a consistent spacing rhythm and readable type on presentation screens. */
+.login-wrap{box-sizing:border-box;padding:28px 20px}.login{box-sizing:border-box;max-width:100%}.login .forgot{display:block;line-height:1.5}.login-ai{align-items:center}.login-ai>span{flex-shrink:0}
+@media screen and (min-width:700px) and (min-height:680px){
+ .login-wrap{min-height:calc(100dvh - 100px);padding:28px 24px;display:flex;justify-content:center;align-items:center}
+ .login{width:580px;padding:36px 44px;border-radius:24px}
+ .login h2{font-size:28px;line-height:1.2;margin:0}.login .product-name{font-size:13px;line-height:1.5;margin:8px 0 0}
+ .login h3{font-size:30px;line-height:1.25;margin:28px 0 14px}.login-intro{font-size:15px;line-height:1.7;margin:0 0 24px}
+ .login .primary{font-size:15px;min-height:48px;padding:12px 20px;margin:0}
+ .login .forgot{font-size:13px;margin:14px auto 24px;padding:4px 8px;min-height:28px}
+ .login-ai{padding:16px;gap:14px;margin:0;text-align:left}.login-ai>span{width:40px;height:40px;font-size:20px}.login-ai strong{font-size:14px;line-height:1.4}.login-ai p{font-size:12px;line-height:1.6;margin:5px 0 0}.login .start-fiction{font-size:11px;line-height:1.5;margin:18px 0 0}
+}
+@media screen and (min-width:700px) and (min-height:680px) and (max-height:760px){.login-wrap{padding:20px 24px}.login{padding:26px 40px}.login h3{margin-top:22px}.login .forgot{margin-bottom:18px}.login-intro{margin-bottom:18px}}
