@@ -10,7 +10,7 @@ De statusbalk maakt het verschil zichtbaar tussen de AI-inschatting, de gecontro
 
 ## Speelroutes
 
-1. **Advies volgen:** kies “ik ben klaar”, ga twee dagen vooruit. Onderbouwing ontbreekt, het datapunt is nog niet aangetoond. De student voelt zich verward en teleurgesteld.
+1. **Advies volgen:** klik op **Ik volg het AI-advies** en ga direct naar het gevolg twee dagen later, zonder extra bevestiging. Onderbouwing ontbreekt, het datapunt is nog niet aangetoond. De student voelt zich verward en teleurgesteld.
 2. **Uitleg controleren:** vergelijk de voortgang met de daadwerkelijke rubric. Geef feedback en laat Sam het advies controleren. Zonder oefening blijft de voorbereiding gelijk en kan het datapunt nog steeds misgaan.
 3. **Hulp vragen:** een docent controleert de interpretatie. Oefen daarna een nieuwe casus; de geschreven uitkomst laat betere voorbereiding zien.
 4. **Herstel na schade:** combineer negen maatregelen op student-, systeem- en organisatieniveau. Een patch maakt een gemist datapunt niet alsnog behaald. Alleen een bevoegde beoordelaar beslist over een nieuwe beoordeling.
