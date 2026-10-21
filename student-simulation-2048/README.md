@@ -4,7 +4,7 @@ Een compacte Nederlandstalige Future Simulation in de stijl van Maneshs negen Fi
 
 ## Het scenario
 
-Op 14 mei 2048 geeft de studiecoach aan dat Manesh kan doorgaan naar het volgende datapunt. De informatie is misleidend: AI verwart voortgang met beheersing. De student kan dit opvatten als “ik ben klaar” en daardoor noodzakelijke oefening overslaan.
+Op 14 mei 2048 geeft de studiecoach aan dat Student kan doorgaan naar het volgende datapunt. De informatie is misleidend: AI verwart voortgang met beheersing. De student kan dit opvatten als “ik ben klaar” en daardoor noodzakelijke oefening overslaan.
 
 De statusbalk maakt het verschil zichtbaar tussen de AI-inschatting, de gecontroleerde voorbereiding en de gevoelens van het fictieve personage. **88%, 58% en 80% zijn geschreven scenario-indicatoren, geen gemeten slaagkansen, cijfers of formele normen.** Een tekstcorrectie verbetert de voorbereiding niet; gerichte oefening wel. De uitkomst is verhalend, niet voorspellend.
 
@@ -52,3 +52,7 @@ De lokale Inter-font heeft een meegeleverde OFL-licentie. AI hielp bij implement
 ## Compacte presentatieweergave
 
 Op desktop past de hoofdroute zonder paginascroll: start, dashboard, uitleg, feedback, aangepast advies, gevolg en terugblik. De indeling is gecontroleerd op 760×884, 1280×720 en 1366×768. Dashboardpanelen en keuzeknoppen blijven binnen de viewport zonder afkappen of pagina-zoom. Extra reflectietekst opent in een apart venster. Op telefoons en zeer lage vensters blijft de leesbare, scrollbare indeling beschikbaar.
+
+## Drie perspectieven
+
+Student is het fictieve personage. Via **Student · AI · Opleiding**, de gevolgpagina en de perspectieftitels in de terugblik kun je wisselen tussen ervaring en autonomie; data, automatisering en interpretatie; en beleid, support, toezicht, verantwoordelijkheid en menselijke controle. De inhoud volgt je route en herstelkeuze. In de herstelkeuze speel je expliciet de opleiding. De functies staan in `perspectives.js`.
