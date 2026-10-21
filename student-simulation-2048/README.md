@@ -11,7 +11,7 @@ De statusbalk maakt het verschil zichtbaar tussen de AI-inschatting, de gecontro
 ## Speelroutes
 
 1. **Advies volgen:** klik op **Ik volg het AI-advies** en ga direct naar het gevolg twee dagen later, zonder extra bevestiging. Onderbouwing ontbreekt, het datapunt is nog niet aangetoond. De student voelt zich verward en teleurgesteld.
-2. **Uitleg controleren:** vergelijk de voortgang met de daadwerkelijke rubric. Geef feedback en laat Sam het advies controleren. Zonder oefening blijft de voorbereiding gelijk en kan het datapunt nog steeds misgaan.
+2. **Uitleg controleren:** vergelijk de voortgang met de daadwerkelijke rubric. Geef feedback en laat Nick het advies controleren. Zonder oefening blijft de voorbereiding gelijk en kan het datapunt nog steeds misgaan.
 3. **Hulp vragen:** een docent controleert de interpretatie. Oefen daarna een nieuwe casus; de geschreven uitkomst laat betere voorbereiding zien.
 4. **Herstel na schade:** combineer negen maatregelen op student-, systeem- en organisatieniveau. Een patch maakt een gemist datapunt niet alsnog behaald. Alleen een bevoegde beoordelaar beslist over een nieuwe beoordeling.
 
@@ -64,3 +64,5 @@ Student is het fictieve personage. Via **Student · AI · Opleiding**, de gevolg
 Na **Voer mijn plan uit** volgt een geschreven vervolgscène tien schooldagen later. Het eindscherm toont **Simulatie opgelost**, **Gedeeltelijk opgelost** of **Nog niet opgelost**. Bij schade vraagt individueel herstel om oefenen, een nieuwe beoordeling en capaciteit. Structurele bescherming vraagt om betere betekenisgeving én menselijke regie. Organisatorische nazorg vraagt om eigenaar, monitoring en onafhankelijk bezwaar. Alleen als alle drie niveaus zijn afgedekt, sluit dit fictieve incident. Historische schade blijft erkend; er is geen automatische cijferwijziging.
 
 Een samenhangend voorstel kan worden ingevuld en gewijzigd. Het is een ontwerpscenario, geen gecertificeerd veilige inzet. De tests controleren alle 511 niet-lege maatregelcombinaties en alle drie de statussen. De eindstatus en het keuzescherm zijn op 1280×720 gecontroleerd zonder paginascroll.
+
+De hoofdroute toont nu eerst **Impact op drie niveaus** in plaats van het oplossingskeuzescherm. Student: ervaring, winst, verlies en eigen keuzes. Systeem: data, AI-inschatting, automatisering en interpretatie van de interface. Opleiding: beleid, support, toezicht, verantwoordelijkheid en menselijke controle. Oplossingen blijven optioneel via **Bekijk oplossingen** te openen. Het personage spreekt over een nog niet aangetoonde leeruitkomst; de docent heet Nick.
